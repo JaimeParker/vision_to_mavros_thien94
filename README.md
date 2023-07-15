@@ -31,7 +31,7 @@ Follow this wiki page: https://ardupilot.org/copter/docs/common-vio-tracking-cam
 ## `vision_to_mavros_node`
 
 <p align="center"><img src="https://i.imgur.com/ycQPhMi.png"/> 
-  
+
 ROS package that listens to `/tf`, transforms the pose of `source_frame_id` to `target_frame_id`, then rotate the frame to match `body_frame` according to [ENU convention](https://dev.px4.io/en/ros/external_position_estimation.html#ros_reference_frames) with user input roll, pitch, yaw, gamma angles. 
 
 ### How it works
